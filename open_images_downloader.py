@@ -108,6 +108,7 @@ if __name__ == '__main__':
             percentages.append(1.0)
 
     if not os.path.exists(args.root):
+        print(args.root)
         os.makedirs(args.root)
 
     excluded_images = set()
