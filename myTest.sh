@@ -13,3 +13,7 @@ python3 train_ssd.py --dataset_type open_images --datasets /media/data1/yanran/M
 # Test on a video demo
 
 python3 run_ssd_live_demo.py mb3-ssd-lite models/mb3-ssd-lite-Epoch-100-Loss-2.546770755521852.pth models/open-images-model-labels.txt
+
+# Test on an Image
+
+python3 run_ssd_example.py mb3-ssd-lite models/mb3-ssd-lite-Epoch-100-Loss-2.546770755521852.pth models/open-images-model-labels.txt /media/data1/yanran/MobileNetV3-SSD/picture/test.jpg
